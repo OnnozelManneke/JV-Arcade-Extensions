@@ -1,5 +1,4 @@
 # JV Arcade Extensions
-
 Dutch language files for phpBB Arcade 4.2.7
 Dutch language files for phpBB Arcade 4.3.0
 Dutch language files for JVA Start System 2.1.4
