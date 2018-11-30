@@ -2,9 +2,9 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: info_ucp_arcade.php 2045 2018-07-26 15:28:27Z killbill $
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version $Id: info_ucp_arcade.php 2110 2018-11-28 08:07:20Z KillBill $
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */

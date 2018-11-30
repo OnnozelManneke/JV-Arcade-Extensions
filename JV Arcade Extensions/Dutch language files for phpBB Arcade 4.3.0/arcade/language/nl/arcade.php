@@ -2,9 +2,9 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: arcade.php 2098 2018-11-16 14:51:46Z KillBill $
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version $Id: arcade.php 2110 2018-11-28 08:07:20Z KillBill $
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -38,7 +38,7 @@ if (empty($lang) || !is_array($lang))
 //These are used through out the arcade
 $lang = array_merge($lang, array(
 	'ACTIVE'									=> 'Actief',
-	'ADOBE_FLASH_PLAYER'						=> 'Je moet Adobe Flash Player hebben',
+	'ADOBE_FLASH_PLAYER'						=> 'Je hebt Adobe Flash nodig',
 	'AMOD_GAME'									=> 'Activiteiten mod',
 	'ARCADE'									=> 'Arcade',
 	'ARCADELIB_GAME'							=> 'Arcadelib',
@@ -337,7 +337,7 @@ $lang = array_merge($lang, array(
 	'ARCADE_PLAYED_USERS'						=> 'Spelende gebruikers',
 	'ARCADE_PLAYER'								=> 'Speler',
 	'ARCADE_PLAYING_NEW_WINDOW'					=> 'Speel in nieuw scherm',
-	'ARCADE_PLAYING_TIME'						=> 'Speeltijd',	
+	'ARCADE_PLAYING_TIME'						=> 'Speeltijd',
 	'ARCADE_PLAYS'								=> 'Gespeeld',
 	'ARCADE_PLAY_LINK'							=> 'Speel spel',
 	'ARCADE_POPUP_DONE'							=> 'Bedankt voor het spelen van %s.<br><br>%sKlik hier om %s opnieuw te spelen.%s',
@@ -444,7 +444,7 @@ $lang = array_merge($lang, array(
 	'ARCADE_SETTINGS_EXPLAIN'					=> 'Verschillende Arcade instellingen.',
 	'ARCADE_SHORTEST_PLAYTIME'					=> 'Korst gespeelde tijd',
 	'ARCADE_SKIP_ADS'							=> '» Advertentie overslaan «',
-	'ARCADE_SMALL'								=> 'Klein',	
+	'ARCADE_SMALL'								=> 'Klein',
 	'ARCADE_START_TIME'							=> 'Start tijd',
 	'ARCADE_STATISTICS'							=> 'Arcade Statistieken',
 	'ARCADE_STATS'								=> 'Statistieken',

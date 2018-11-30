@@ -2,9 +2,9 @@
 /**
 *
 * @package phpBB Arcade - Random games on forum index page
-* @version $Id: acp_settings.php 2066 2018-11-07 23:09:21Z KillBill $
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version $Id: acp_settings.php 2111 2018-11-28 08:35:20Z KillBill $
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */

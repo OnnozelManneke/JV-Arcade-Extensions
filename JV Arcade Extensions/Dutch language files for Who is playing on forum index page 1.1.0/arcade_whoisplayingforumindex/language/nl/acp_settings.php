@@ -3,8 +3,8 @@
 *
 * @package phpBB Arcade - Who is playing on forum index page
 * @version $Id$
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */

@@ -2,9 +2,9 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: help_developer.php 2057 2018-11-07 16:14:07Z Scanialady $
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version $Id: help_developer.php 2110 2018-11-28 08:07:20Z KillBill $
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -178,9 +178,9 @@ $lang = array_merge($lang, array(
 /**
 *
 * @package phpBB Arcade
-* @version 5.2.0
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version 5.2.1
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */

@@ -2,9 +2,9 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: info_acp_arcade.php 2084 2018-11-13 14:03:29Z Scanialady $
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version $Id: info_acp_arcade.php 2117 2018-11-30 12:35:30Z Scanialady $
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -811,10 +811,10 @@ De software ontwerper aanvaardt geen enkele verantwoordelijkheid voor eventuele 
 	'ARCADE_RESET_COMMENT_CONFIRM'						=> 'Weet je zeker dat je de arcade spellen commentaar wil resetten?',
 	'ARCADE_RESET_COMMENT_DONE'							=> 'Arcade spellen commentaar succesvol gereset.',
 	'ARCADE_RESET_COMMENT_EXPLAIN'						=> 'Dit zal alle arcade spellen commentaar data resetten.',
-	'ARCADE_RESET_DATE_MONTH'							=> 'Maand (Laatste dag om 0:00)',
-	'ARCADE_RESET_DATE_QUARTER_YEAR'					=> 'Kwartaal (Laatste dag om 0:00)',
-	'ARCADE_RESET_DATE_HALF_YEAR'						=> 'Half jaar (06-30 en 12-31 at 0:00)',
-	'ARCADE_RESET_DATE_YEAR'							=> 'Jaar (12-31 om 0:00)',
+    'ARCADE_RESET_DATE_MONTH'                           => 'Maand (Eerste dag om 0:00)',
+    'ARCADE_RESET_DATE_HALF_YEAR'                       => 'Half jaar (07-01 en 01-01 om 0:00)',
+    'ARCADE_RESET_DATE_YEAR'                            => 'Jaar (01-01 om 0:00)',
+    'ARCADE_RESET_DATE_QUARTER_YEAR'                    => 'Kwartaal jaar (Eerste dag om 0:00)',
 	'ARCADE_RESET_DOWNLOADS'							=> 'Reset download statistieken',
 	'ARCADE_RESET_DOWNLOADS_CONFIRM'					=> 'Dit zal alle spellen download statistieken van de arcade resetten. Weet je zeker dat je wil door gaan?',
 	'ARCADE_RESET_DOWNLOADS_DONE'						=> 'Arcade download statistieken succesvol gereset.',

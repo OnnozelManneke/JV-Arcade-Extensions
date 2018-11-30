@@ -2,9 +2,9 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: logs.php 2095 2018-11-15 06:36:40Z KillBill $
-* @author 2011-2018 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2018 https://jv-arcade.com/ - support@jv-arcade.com
+* @version $Id: logs.php 2110 2018-11-28 08:07:20Z KillBill $
+* @author 2011-2019 KillBill - killbill@jatek-vilag.com
+* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -46,6 +46,7 @@ $lang = array_merge($lang, array(
 	'ARCADE_SCORE_ERR_MICRO_TIME'					=> 'Controle tijd overschreden',
 	'ARCADE_SCORE_ERR_PCH'							=> 'Geen juiste score variabel code ontvangen',
 	'ARCADE_SCORE_ERR_TIME_HACK'					=> 'Speeltijd manipulatie detectie',
+	'ARCADE_SCORE_ERR_SAVE_TYPE'                    => 'Niet het geconfigureerde opslagtype werd gebruikt',
 
 	'LOG_ACL_ADD_CATEGORY_LOCAL_C_'					=> '<strong>Categorie permissies toegevoegd of gewijzigd</strong> van %1$s<br>» %2$s',
 	'LOG_ACL_ADD_GROUP_LOCAL_C_'					=> '<strong>Groep categorie toegang toegevoegd of gewijzigd</strong> van %1$s<br>» %2$s',
