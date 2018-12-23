@@ -1,0 +1,12 @@
+{SUBJECT}Je hebt je super kampioen titel verloren in [game_name] aan [new_username]!
+
+***BERICHT GEMAAKT DOOR ARCADE***
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Je hebt je superscore verloren met [game_link].
+[new_user_link] had de score [b][new_score][/b] wat jouw oude score versloeg [b][old_score][/b].
+
+je kan jouw arcade statistieken bekijken door te klikken op de link [old_user_link].

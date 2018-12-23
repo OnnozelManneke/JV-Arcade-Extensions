@@ -1,0 +1,8 @@
+{SUBJECT}Arcade uitdaging voor een wedstrijd verwijderd!
+
+***BERICHT GEMAAKT DOOR ARCADE***
+
+Gebruiker [opponent_user_link] stuurde een bug report voor spel [game_name], daarom is de wedstrijd verwijderd.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
