@@ -6,6 +6,8 @@ Dutch language files for Board3 portal arcade modules 6.2.0
 
 Dutch language files for JV Auto database backup 1.0.1
 
+Dutch language files for JV Contact 1.0.0
+
 Dutch language files for JV First Post On Every Page 1.0.1
 
 Dutch language files for JV Footer chat 2.0.0-RC2
