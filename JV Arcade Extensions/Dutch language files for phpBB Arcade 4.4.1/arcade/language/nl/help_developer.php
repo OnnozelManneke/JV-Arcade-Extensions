@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'ARCADE_ACP_HELP_FAQ_INSTALL_UPDATE_ANSWER'			=> '<ul>
 																<li>Download de nieuwste release en pak uit.</li>
 																<li>Kopieer de bestanden naar uw server in de “[ROOT]/” directory van het forum terwijl u de structuur van mappen behoudt.</li>
-																<li>Ga naar het Beheerderspaneel en klik op het menu-item “Aanpassen”. Klik binnenin op de koppeling phpBB Arcade “Uitschakelen”. Klik nu op de phpBB Arcade “Enable” link, en je phpBB Arcade is bijgewerkt.</li>
+																<li>Ga naar het Beheerderspaneel en klik op het menu-item “Aanpassen”. Klik binnenin op de koppeling phpBB Arcade “Uitschakelen”. Klik nu op de phpBB Arcade “Inschakelen” link, en je phpBB Arcade is bijgewerkt.</li>
 															</ul>',
 	'ARCADE_ACP_HELP_FAQ_INSTALL_UPDATE_QUESTION'		=> 'Hoe update ik de phpBB Arcade?',
 
@@ -118,7 +118,7 @@ $lang = array_merge($lang, array(
 															</ul>',
 	'ARCADE_ACP_HELP_FAQ_GAMES_TYPE_QUESTION'			=> 'Welke spel types worden ondersteund?',															
 
-	'ARCADE_ACP_HELP_FAQ_GAMES_SAVE_TYPE_ANSWER'		=> 'De arcade ondersteunt de volgende spel opslaag types:<br>
+	'ARCADE_ACP_HELP_FAQ_GAMES_SAVE_TYPE_ANSWER'		=> 'De arcade ondersteunt de volgende spel opslag types:<br>
 															<ul>
 																<li>phpBB Arcade</li>
 																<li>Activity Mod</li>
@@ -306,7 +306,7 @@ $game_data = array(
 															<ul>
 																<li><strong>Spellen toevoegen</strong> - Een spel toevoegen aan de arcade, meerdere spellen kunnen worden toegevoegd aan een categorie in één keer</li>
 																<li><strong>Uploaden/Uitpakken spellen</strong> - De arcade/games folder bevat ingepakte spellen. Je kan ze uitpakken of uploaden via de <strong>Bladeren</strong> knop. Na het uitpakken zijn de spellen klaar voor installatie.</li>
-																<li><strong>Backup spellen</strong> - Maak een backup van alle spellen in de geselecteerde categorie</li>
+																<li><strong>Backup spellen</strong> - Maak een reservekopie van alle spellen in de geselecteerde categorie</li>
 																<li><strong>Download spellen</strong> - Spellen downloaden van websites die spel downloads aanbieden klaar om gebruikt te worden in de arcade.</li>
 															</ul><br>
 															<strong>Nuttige modules</strong><br>
