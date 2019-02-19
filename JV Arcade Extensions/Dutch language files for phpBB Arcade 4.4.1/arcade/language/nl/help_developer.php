@@ -306,7 +306,7 @@ $game_data = array(
 															<ul>
 																<li><strong>Spellen toevoegen</strong> - Een spel toevoegen aan de arcade, meerdere spellen kunnen worden toegevoegd aan een categorie in één keer</li>
 																<li><strong>Uploaden/Uitpakken spellen</strong> - De arcade/games folder bevat ingepakte spellen. Je kan ze uitpakken of uploaden via de <strong>Bladeren</strong> knop. Na het uitpakken zijn de spellen klaar voor installatie.</li>
-																<li><strong>Backup spellen</strong> - Maak een reservekopie van alle spellen in de geselecteerde categorie</li>
+																<li><strong>Back-up spellen</strong> - Maak een reservekopie van alle spellen in de geselecteerde categorie</li>
 																<li><strong>Download spellen</strong> - Spellen downloaden van websites die spel downloads aanbieden klaar om gebruikt te worden in de arcade.</li>
 															</ul><br>
 															<strong>Nuttige modules</strong><br>

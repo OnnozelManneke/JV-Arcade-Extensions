@@ -64,14 +64,14 @@ $lang = array_merge($lang, array(
 																<li>Spellen spelen in een nieuw scherm(popup).</li>
 																<li>Spelen met volledig scherm.</li>
 																<li>Spel grootte aanpassen.</li>
-																<li>Achtergrond verlichting voor spellen aan / uit.</li>
+																<li>Achtergrond verlichting voor spellen aan/uit.</li>
 																<li>Toernooien met diverse spellen tussen meerdere gebruikers.</li>
 																<li>Daag andere leden uit met individuele spellen.</li>
 																<li>Het creëren van willekeurige uitdagingen.</li>
 																<li>Afzonderlijke gedetailleerde statistieken.</li>
 																<li>Spel statistieken.</li>
 																<li>Gebruikers statistieken.</li>
-																<li>Categorie statistieken..</li>
+																<li>Categorie statistieken.</li>
 																<li>Klasseringen.</li>
 																<li>Gebruik van puntensysteem.</li>
 																<li>En nog veel meer…</li>
