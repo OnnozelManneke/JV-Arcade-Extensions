@@ -36,7 +36,7 @@ Dutch language files for JVA Start System 2.2.2
 
 Dutch language files for Leaders on forum index 1.1.0
 
-Dutch language files for New games on forum index page 1.1.0
+Dutch language files for New games on forum index page 1.1.1
 
 Dutch language files for phpBB Arcade 4.2.7
 
@@ -50,7 +50,7 @@ Dutch language files for phpBB Arcade 4.4.0
 
 Dutch language files for phpBB Arcade 4.4.1
 
-Dutch language files for phpBB Arcade 4.4.2
+Dutch language files for phpBB Arcade 4.4.3
 
 Dutch language files for Random games on forum index page 1.1.0
 
