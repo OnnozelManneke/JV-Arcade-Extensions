@@ -175,6 +175,9 @@ $lang = array_merge($lang, array(
 	'JV_POKER_HELP_POINTS_ANSWER'		=> 'Natuurlijk, op dezelfde manier als ze werden verworven.',
 	'JV_POKER_HELP_POINTS_QUESTION'		=> 'Kan ik de chips die ik heb opgedaan terug wisselen?',
 
+	'JV_POKER_HELP_BAN_CHIPS_ANSWER'	=> 'Ja, als een beheerder je permissie voor poker verwijdert, kun je %s<strong>HIER</strong>%s automatisch al je fiches op elk gewenst moment uitwisselen.',
+	'JV_POKER_HELP_BAN_CHIPS_QUESTION'	=> 'Als ik mijn permissie voor poker verlies, is er een manier om mijn fiches in te wisselen?',
+
 	'JV_POKER_HELP_PD_ANSWER'			=> '“phpBB Holdem Poker” verzamelt en slaat het IP adres van elke huidige speler op totdat de gebruiker de tafel verlaat. Wanneer een gebruiker opstaat van de tafel, worden alle gegevens gewist en worden alleen de statistische gegevens bewaard. Het IP adres wordt tijdens het spel opgeslagen om te voorkomen dat meerdere spelers aan dezelfde tafel hetzelfde IP adres gebruiken. Natuurlijk kunt u deze IP controle in en uitschakelen.',
 	'JV_POKER_HELP_PD_QUESTION'			=> 'Bewaart “phpBB Holdem Poker” persoonlijke gegevens?',
 
