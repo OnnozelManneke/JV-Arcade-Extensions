@@ -52,7 +52,7 @@ Dutch language files for phpBB Arcade 4.4.0
 
 Dutch language files for phpBB Arcade 4.4.1
 
-Dutch language files for phpBB Arcade 4.4.4
+Dutch language files for phpBB Arcade 4.4.5
 
 Dutch language files for phpBB Holdem Poker 1.0.2
 
