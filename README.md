@@ -14,7 +14,9 @@ Dutch language files for JV Footer chat 2.0.0-RC2
 
 Dutch language files for JV Points System 2.0.1
 
-Dutch language files for JV Points System 3.0.2
+Dutch language files for JV Points System 3.0.1
+
+Dutch language files for JV Points System 3.1.1
 
 Dutch language files for JV Privacy Policy and data management tool 1.0.4
 
