@@ -20,7 +20,7 @@ Dutch language files for JV Privacy Policy and data management tool 1.0.4
 
 Dutch language files for JV Privacy Policy and data management tool 1.0.5
 
-Dutch language files for JV Shoutbox 2.1.0
+Dutch language files for JV Shoutbox 2.2.1
 
 Dutch language files for JVA Start System 2.1.4
 
