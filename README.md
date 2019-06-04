@@ -2,7 +2,7 @@
 
 Dutch language files for Best rated games on forum index page 1.1.0
 
-Dutch language files for Board3 portal arcade modules 6.2.0
+Dutch language files for Board3 portal arcade modules 6.2.1
 
 Dutch language files for JV Auto database backup 1.0.1
 
