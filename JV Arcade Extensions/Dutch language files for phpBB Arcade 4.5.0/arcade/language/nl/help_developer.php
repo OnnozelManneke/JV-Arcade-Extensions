@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 /**
 *
 * @package phpBB Arcade
-* @version 5.3.0
+* @version 5.4.0
 * @author 2011-2019 KillBill - killbill@jatek-vilag.com
 * @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -261,6 +261,7 @@ $game_data = array(
 	\'game_height\'			=> 480,
 	\'game_scoretype\'		=> SCORETYPE_HIGH,
 	\'game_save_type\'		=> PHPBBARCADE_GAME
+	\'game_inherit\'		=> \'Voer het overnamepad van het spel in, indien nodig.\',
 	\'privacy_desc\'		=> \'Voer hier het Privacybeleid van de game in als het spel dit vereist.\',
 	\'privacy_link\'		=> \'Voer de link naar het Privacybeleid van het spel in HTML indeling in. Als er meer dan één link is, voert u deze allemaal in op hun eigen nieuwe regel.\'
 );
