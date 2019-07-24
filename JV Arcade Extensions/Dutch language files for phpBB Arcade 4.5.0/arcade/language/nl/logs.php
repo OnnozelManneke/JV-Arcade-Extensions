@@ -2,7 +2,7 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: logs.php 2154 2019-03-30 12:29:07Z killbill $
+* @version $Id: logs.php 2185 2019-07-20 20:50:23Z killbill $
 * @author 2011-2019 KillBill - killbill@jatek-vilag.com
 * @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
@@ -108,8 +108,8 @@ $lang = array_merge($lang, array(
 	'LOG_ARCADE_ERROR_PLAYING_TIME'					=> '<strong>De “%s” spelscore is ingediend zonder speelduur</strong><br>» Score: %s',
 	'LOG_ARCADE_EXT_SETTINGS'						=> '<strong>Veranderde extensie instellingen</strong>',
 	'LOG_ARCADE_FEATURE'							=> '<strong>Functie instellingen aangepast</strong>',
-	'LOG_ARCADE_FORM_SCORE_ERROR'					=> '<strong>Het spel “%s” heeft een niet juiste score verzonden</strong><br>Type: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Error:</strong> (%s)',
-	'LOG_ARCADE_FORM_SCORE_ERRORS'					=> '<strong>Het spel “%s” heeft een niet juiste score verzonden</strong><br>Type: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Errors:</strong> (%s)',
+	'LOG_ARCADE_FORM_SCORE_ERROR'					=> '<strong>Het spel “%s” heeft een onjuiste score verzonden</strong><br>Type: %s<br>Opslag type: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Fout:</strong> (%s)',
+	'LOG_ARCADE_FORM_SCORE_ERRORS'					=> '<strong>Het spel “%s” heeft een onjuiste score verzonden</strong><br>Type: %s<br>Opslag type: %s<br>Speeltijd: %s<br>Score: %s<br><strong>Fouten:</strong> (%s)',
 	'LOG_ARCADE_GAME'								=> '<strong>Spel instellingen aangepast</strong>',
 	'LOG_ARCADE_GAME_ANNOUNCE'						=> '<strong>Spel mededeling aangepast/strong><br>» Taal %s',
 	'LOG_ARCADE_GAME_ANNOUNCE_SYNC'					=> '<strong>Hersynchroniseer spel mededelingen</strong>',

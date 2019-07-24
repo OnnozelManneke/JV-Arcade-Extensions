@@ -2,7 +2,7 @@
 /**
 *
 * @package phpBB Arcade
-* @version $Id: help_developer.php 2154 2019-03-30 12:29:07Z killbill $
+* @version $Id: help_developer.php 2185 2019-07-20 20:50:23Z killbill $
 * @author 2011-2019 KillBill - killbill@jatek-vilag.com
 * @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
 * @license https://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
