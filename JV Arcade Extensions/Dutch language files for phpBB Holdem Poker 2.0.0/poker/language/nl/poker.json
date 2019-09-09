@@ -2,6 +2,9 @@
 	"allin":					"All-in",
 	"already_sit":				"Je zit al!",
 	"already_used_ip":			"Met je eigen (%s)-IP adres, %s gebruiker is gaan zitten om op deze tafel te spelen.<br>Hetzelfde IP adres aan een tafel is niet toegestaan in het spel.<br>Je kunt echter naar een andere kamer gaan om te spelen.",
+	"auto":						"Automatisch",
+	"auto_check_fold":			"Check<br>Fold",
+	"auto_check_call":			"Check<br>Call",
 	"bet":						"Bet",
 	"blocked_domain":			"Op dit domein kan de “phpBB Holdem Poker” software niet worden uitgevoerd!",
 	"blocked_points_room":		"Gebruik op dit domein alleen de oefenkamers!",
@@ -80,11 +83,13 @@
 	"no_valid_data_ajax_error":	"Ajax Fout: de server heeft de gegevens verkeerd verwerkt!<br><br>Informeer de beheerder van de website.",
 	"no_internet_connection":	"Uw internetverbinding is verloren gegaan!<br><br>Controleer uw internetinstellingen.",
 	"no_server_connection":		"De server is momenteel niet beschikbaar!",
+
 	"invalid_data":				"De benodigde gegevens voor het spel zijn niet ontvangen, dus het proces is gestopt!",
 	"pause":					"Pauze",
 	"raise":					"Raise",
 	"send":						"Zend",
 
+	"shout_learner":			"Welkom in de %s kamer.<br>In deze kamer kun je leren spelen met gratis en open kaarten.<br>De gewonnen chips kunnen niet uit de kamer worden gehaald.<br>We wensen je een gezellige en leuke ontspanning toe.",
 	"shout_pause":				"%s neemt een pauze.",
 	"shout_playing":			"%s gaat door met het spel.",
 	"shout_practice":			"Welkom in de %s kamer.<br>Je kunt gratis in deze kamer spelen en oefenen.<br>De gewonnen chips kunnen niet uit de kamer worden gehaald.<br>We wensen je een gezellige en leuke ontspanning toe.",
@@ -132,6 +137,7 @@
 	"tip_radio_stations":		"Radio stations",
 	"tip_radio_stop":			"Stop de radio",
 	"tip_refresh":				"Gegevens vernieuwen",
+	"tip_shout_archive":		"Open shoutbox archief",
 	"tip_shout_sound_off":		"Shoutbox geluid uit",
 	"tip_shout_sound_up":		"Shoutbox geluid aan",
 	"tip_sit_title":			"Ga aan tafel zitten",
@@ -139,6 +145,7 @@
 	"tip_sound_up":				"Geluid aan",
 	"tip_stand_up":				"Opstaan van de tafel",
 
+	"tour_start_date":			"Het toernooi begint automatisch<br><br>%s",
 	"tour_start_confirm":		"Als je het toernooi nu start zullen nieuwkomers niet meer kunnen deelnemen aan het toernooi.<br>Ben je zeker dat je het toernooi wil starten?",
 
 	"user_action_error":		"Start een ongeldig proces!",

@@ -46,6 +46,7 @@ $lang = array_merge($lang, array(
 	'ARCADE_SCORE_ERR_MICRO_TIME'					=> 'Controle tijd overschreden',
 	'ARCADE_SCORE_ERR_PCH'							=> 'Geen juiste score variabel code ontvangen',
 	'ARCADE_SCORE_ERR_SAVE_TYPE'                    => 'Niet het geconfigureerde opslagtype werd gebruikt',
+	'ARCADE_SCORE_ERR_SEC_SESS'						=> 'Onjuiste beveiligingssessie ontvangen',	
 
 	'LOG_ACL_ADD_CATEGORY_LOCAL_C_'					=> '<strong>Categorie permissies toegevoegd of gewijzigd</strong> van %1$s<br>» %2$s',
 	'LOG_ACL_ADD_GROUP_LOCAL_C_'					=> '<strong>Groep categorie toegang toegevoegd of gewijzigd</strong> van %1$s<br>» %2$s',

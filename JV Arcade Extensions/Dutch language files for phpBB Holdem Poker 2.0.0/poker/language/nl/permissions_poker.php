@@ -44,8 +44,12 @@ $lang = array_merge($lang, array(
 	'ACL_A_JV_POKER_ROOMS_DELETE'	=> 'Kan poker kamers verwijderen',
 	'ACL_A_JV_POKER_ROOMS_MANAGE'	=> 'Kan poker kamers beheren',
 	'ACL_A_JV_POKER_SETTINGS'		=> 'Kan poker instellingen beheren',
+	'ACL_A_JV_POKER_STYLES'			=> 'Kan pokerstijlen beheren',	
+
+	'ACL_M_JV_POKER_MSG_DELETE'		=> 'Kan berichten uit het shoutbox archief verwijderen',
 
 	'ACL_U_JV_POKER'				=> 'Kan poker gebruiken',
-	'ACL_U_JV_POKER_SHOUT'			=> 'Kan de shoutbox gebruiken',
+	'ACL_U_JV_POKER_PLAY'			=> 'Kan poker spelen. <em>Deze optie is alleen van toepassing op geregistreerde gebruikers.</em>',
+	'ACL_U_JV_POKER_SHOUT'			=> 'Kan de shoutbox gebruiken. <em>Deze optie is alleen van toepassing op geregistreerde gebruikers.</em>',
 	'ACL_U_JV_POKER_STATS'			=> 'Kan de statistieken bekijken',
 ));

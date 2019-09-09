@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'JV_POKER_HELP_REG_QUESTION'		=> 'Waarom moet ik me registreren?',
 
 	'JV_POKER_HELP_PLAY_ANSWER'			=> 'Poker is één van de populairste kaartspellen ter wereld. Het gaat erom dat spelers geld (chips) in het midden van de tafel krijgen (POT in het Engels) en om het beste uit hun kaarten te halen. Je kunt dit doen met de beste kaartcombinatie, dus elke speler moet ernaar streven de beste in zijn eigen hand te hebben. Het spel kan door 2-8 personen in een kamer worden gespeeld. Het spel maakt gebruik van 52 Franse kaarten zonder jokers. Elke speler ontvangt twee kaarten die niet door andere spelers kunnen worden gezien en gebruikt. Tijdens het spel worden vijf gemeenschappelijke open kaarten open op tafel gedeeld, die alle spelers kunnen zien en gebruiken. De speler probeert de beste vijfkaart combinatie te compileren uit zijn eigen kaarten en uit de gemeenschappelijke kaarten. De speler met de sterkste kaarten wint de waarde van de pot. Een kaartspel met Franse kaarten (zonder jokers) heeft 4 verschillende kleuren en elke kleur bestaat uit 13 kaarten met verschillende waarden, waarmee het deck met 52 vellen wordt weergegeven. De volgorde van de 4 kleuren: <span class="poker_cs">♣</span> (Klaveren) <span class="poker_dh">♦</span> (Diamanten) <span class="poker_dh">♥</span> (Harten) <span class="poker_cs">♠</span> (Schoppen). Alle kleuren worden beschouwd als gelijk aan de evaluatie van pokerhanden. De volgorde van de waarde van de kaarten is: A (aas), 2, 3, 4, 5, 6, 7, 8, 9, 10, J (Jack), Q (koningin), K (koning). De aas is niet alleen een enkel nummer, maar een aaskaart, de hoogste kaart na de koning.
-		<br><br><strong>Osztó:</strong><br>
+		<br><br><strong>Deler:</strong><br>
 		Er is altijd een Deler positie aan een pokertafel. De deler beheert de kaarten, mengt ze en verdeelt ze. Het deler icoon (D) geeft de persoon aan die de deler zal zijn en deel zal nemen aan het spel.
 
 		<br><br><strong>Small blinds en big blinds:</strong><br>
@@ -182,6 +182,9 @@ $lang = array_merge($lang, array(
 	'JV_POKER_HELP_PD_QUESTION'			=> 'Bewaart “phpBB Holdem Poker” persoonlijke gegevens?',
 
 // step 2
+	'JV_POKER_HELP_LEARNER_ANSWER'		=> 'Iedereen kan in deze kamer spelen, zelfs als ze geen eigen fiches hebben. Elke speler krijgt een vooraf bepaald aantal fiches tijdens het zitten. In de kamer spelen alle spelers met open kaarten, zodat ze een kans hebben om elkaar te leren. De fiches die in deze kamer worden gewonnen, kunnen niet uit de kamer worden gehaald of worden uitgewisseld.',
+	'JV_POKER_HELP_LEARNER_QUESTION'	=> 'Wat betekent het om in een leerling kamer te zijn?',
+
 	'JV_POKER_HELP_PRACTICE_ANSWER'		=> 'Iedereen kan in deze kamer spelen, zelfs als ze geen eigen chips hebben. Elke speler krijgt een vooraf bepaald aantal chips tijdens het zitten. De chips die in deze kamer worden gewonnen, kunnen niet uit de kamer worden gehaald of worden uitgewisseld.',
 	'JV_POKER_HELP_PRACTICE_QUESTION'	=> 'Wat betekent het om in een oefenkamer te zitten?',
 
@@ -204,7 +207,7 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>1. Als de actie van de vorige speler geen “Call” was, kiezen we automatisch “Check”.</li>
 		<li>2. Als de actie van de vorige speler “Call” was, “Folden” we onze kaarten automatisch.</li>
-	<ul>',
+	</ul>',
 	'JV_POKER_HELP_MOVE_TIME_QUESTION'	=> 'Wat is de Bewegingstijd?',
 
 	'JV_POKER_HELP_STATUS_ANSWER'		=> 'Het veld onder “Status” geeft aan of deze kamer deel uitmaakt van een spel.',
@@ -290,6 +293,30 @@ $lang = array_merge($lang, array(
 	</ul>',
 	'JV_POKER_HELP_JACKPOT_QUESTION'	=> 'Wat is de hoofdprijs en hoe verkrijg ik deze?',
 
+	'JV_POKER_HELP_CHIPS_C_ANSWER'		=> 'De waarden voor kleuren chips zijn als volgt:
+	<ul>
+		<li>Zwart “C”: 0.01</li>
+		<li>Zwart en lichtbruin “C”: 0.10</li>
+		<li>Grijs: $1</li>
+		<li>Geel: $10</li>
+		<li>Roze: $100</li>
+		<li>Rood: $500</li>
+		<li>Blauw: $1000</li>
+		<li>Paars: $2000</li>
+		<li>Groen: $5000</li>
+		<li>Bruin: $10000</li>
+	</ul>',
+	'JV_POKER_HELP_CHIPS_C_QUESTION'	=> 'Wat is hun waarde voor verschillende gekleurde chips?',
+
+	'JV_POKER_HELP_CHIPS_DC_ANSWER'		=> 'Ja, zolang u het maximale aantal fiches behaalt dat kan worden weergegeven, wat $186111.1 is, want er zijn maximaal 10 items in 1 fiche.',
+	'JV_POKER_HELP_CHIPS_DC_QUESTION'	=> 'Worden de fiches op de juiste hoeveelheid weergegeven?',
+
+	'JV_POKER_HELP_AUTO_ACF_ANSWER'		=> 'Als de gebruiker de functie “Automatische Check/Fold” bevestigt zal deze de kaarten automatisch checken of folden als er een “call” is.',
+	'JV_POKER_HELP_AUTO_ACF_QUESTION'	=> 'Wat doet Automatische Check/Fold?',
+
+	'JV_POKER_HELP_AUTO_ACC_ANSWER'		=> 'Als de gebruiker de functie “Automatische Check/Call” bevestigt wordt deze automatisch ge-folled of, als er een call is, wordt automatisch het ge-called bedrag opgegeven.',
+	'JV_POKER_HELP_AUTO_ACC_QUESTION'	=> 'Wat doet Automatische Check/Call?',
+
 // step 4
 	'JV_POKER_HELP_SHOUT_ANSWER'		=> 'Als de beheerder toestemming heeft gegeven, ja. Als u niet over de vereiste toestemming beschikt, kunt u alleen berichten over de vooruitgang van het spel in de shoutbox lezen.',
 	'JV_POKER_HELP_SHOUT_QUESTION'		=> 'Kan ik de shoutbox gebruiken tijdens een spel?',
@@ -309,11 +336,17 @@ $lang = array_merge($lang, array(
 	'JV_POKER_HELP_S_SHOUT_ANSWER'		=> 'De shoutbox kan alleen de laatste 8 regels weergeven, dus verder scrollen is niet mogelijk.',
 	'JV_POKER_HELP_S_SHOUT_QUESTION'	=> 'Hoe scrol ik tussen de berichten?',
 
-	'JV_POKER_HELP_A_SHOUT_ANSWER'		=> 'Er is momenteel geen archief, maar het is gepland.',
-	'JV_POKER_HELP_A_SHOUT_QUESTION'	=> 'Is er een mogelijkheid voor het bekijken van oudere berichten?',
-
 	'JV_POKER_HELP_SHOUT_SOUND_ANSWER'	=> 'Ja, u kunt de shoutbox afzonderlijk uitschakelen. Als u de shoutbox uitschakelt, wordt het geluid van het spel niet uitgeschakeld.',
 	'JV_POKER_HELP_SHOUT_SOUND_QUESTION'=> 'Kan ik de shoutbox uitschakelen?',
+
+	'JV_POKER_HELP_A_SHOUT_ANSWER'		=> 'Ja, elke speler kan het archief bekijken tijdens het spel.',
+	'JV_POKER_HELP_A_SHOUT_QUESTION'	=> 'Is er een mogelijkheid voor het bekijken van oudere berichten?',
+
+	'JV_POKER_HELP_A_SHOUT_R_ANSWER'	=> 'Ja, de knop Vernieuwen bevindt zich aan de rechterkant van de titelbalk.',
+	'JV_POKER_HELP_A_SHOUT_R_QUESTION'	=> 'Is er een manier om het archief te vernieuwen?',
+
+	'JV_POKER_HELP_A_SHOUT_RE_ANSWER'	=> 'Als de berichten niet worden weergegeven, hebt u het spel verlaten of gepauzeerd en mag u de shoutbox niet gebruiken tijdens een pauze.',
+	'JV_POKER_HELP_A_SHOUT_RE_QUESTION'	=> 'Na het vernieuwen van het archief verdwenen de berichten, waarom?',
 
 // step 5
 	'JV_POKER_HELP_LEADERS_ANSWER'		=> 'De kampioenen worden voornamelijk gerangschikt op basis van het inkomen en, in het andere geval, op basis van het win percentage.',
@@ -327,6 +360,9 @@ $lang = array_merge($lang, array(
 
 	'JV_POKER_HELP_U_INCOME_ANSWER'		=> 'Het inkomen wordt alleen bijgewerkt als de gebruiker opstaat van de tafel.',
 	'JV_POKER_HELP_U_INCOME_QUESTION'	=> 'Tijdens het spel verandert mijn inkomen niet, waarom?',
+
+	'JV_POKER_HELP_L_STATS_ANSWER'		=> 'Er zijn geen statistische gegevens opgeslagen in de leer kamers.',
+	'JV_POKER_HELP_L_STATS_QUESTION'	=> 'Slaan leer kamers ook statische gegevens op?',
 
 	'JV_POKER_HELP_P_STATS_ANSWER'		=> 'Kortom, behalve voor inkomen. Als de beheerder toestemming geeft om de inkomsten in de oefenkamer op te slaan, worden alle statistische gegevens opgeslagen in de oefenkamers.',
 	'JV_POKER_HELP_P_STATS_QUESTION'	=> 'Oefenkamers slaan ook statistische gegevens op?',
