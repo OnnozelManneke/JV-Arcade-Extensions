@@ -1,0 +1,14 @@
+{SUBJECT}Je bent uitgedaagd!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+[challenger_user_link] wil je graag uitdagen in het spel [game_link].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
+
+[b]Aandacht![/b]
+Om deze uitdaging te spelen, is het nodig om deze eerst op de uitdagingspagina te accepteren en daarna het spel daar te starten.
+Als je deze uitdaging niet wilt spelen, kun je deze weigeren.

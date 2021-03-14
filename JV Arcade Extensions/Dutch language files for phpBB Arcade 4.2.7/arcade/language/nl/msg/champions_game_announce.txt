@@ -1,9 +1,0 @@
-{SUBJECT}[Arcade Top 10] - [create_date]
-
-[b]De toplijst is aangemaakt door de arcade.[/b]
-
-In het verleden waren de volgende spelers de beste:
-
-[users_list_link]
-
-De volgende keer wordt de arcade gereset op: [next_auto_reset_date]

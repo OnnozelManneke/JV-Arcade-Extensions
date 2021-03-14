@@ -1,8 +1,0 @@
-{SUBJECT}Arcade uitdaging voor een wedstrijd ingetrokken!
-
-***BERICHT GEMAAKT DOOR ARCADE*** 
-
-Gebruiker [challenger_user_link] heeft de uitdaging ingetrokken voor het volgende spel: [games_name].
-{ARCADE_POINT_SYSTEM_MSG}
-
-[view_challenge]

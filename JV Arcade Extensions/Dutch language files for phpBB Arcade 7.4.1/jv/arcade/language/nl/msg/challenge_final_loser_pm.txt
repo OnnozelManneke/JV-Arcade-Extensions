@@ -1,0 +1,11 @@
+{SUBJECT}Eindresultaat Arcade uitdaging!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Je hebt een toernooispel van [game_link] verloren.
+[winner_user_link] score: [winner_score] punten, eigen score: [loser_score] punten.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

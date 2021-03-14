@@ -1,0 +1,11 @@
+{SUBJECT}Eindresultaat Arcade uitdaging!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Gefeliciteerd met het winnen van een toernooispel van [game_link].
+[loser_user_link] score: [loser_score] punten, eigen score: [winner_score] punten.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]

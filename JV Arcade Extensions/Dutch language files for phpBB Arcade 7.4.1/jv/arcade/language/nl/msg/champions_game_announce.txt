@@ -1,0 +1,9 @@
+{SUBJECT}[Arcade Top {TOP_NUMBER}] - [create_date]
+
+[b]De Toplijst is gegenereerd door de arcade.[/b]
+
+In de laatste wedstrijdperiode waren de volgende spelers de beste:
+
+[users_list_link]
+
+De arcade wordt de volgende keer gereset op: [next_auto_reset_date]

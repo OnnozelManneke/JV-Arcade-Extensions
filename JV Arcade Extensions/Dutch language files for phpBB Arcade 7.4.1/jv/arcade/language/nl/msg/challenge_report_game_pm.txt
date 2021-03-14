@@ -1,0 +1,6 @@
+{SUBJECT}Arcade uitdaging verwijderd!
+
+Gebruiker [opponent_user_link] heeft bugrapporten gestuurd voor het spel [game_name], dus de uitdaging is verwijderd.
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
