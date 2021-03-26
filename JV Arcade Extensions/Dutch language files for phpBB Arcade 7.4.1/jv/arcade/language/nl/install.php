@@ -105,8 +105,8 @@ $lang = array_merge($lang, array(
 	'INS_ARCADE_GAME_INSTALL_FILE_UPDATED'				=> 'Bijgewerkte spel installatie bestanden',
 	'INS_ARCADE_UND_GAMES_FILESIZE'						=> 'Ongespecificeerde bestandsgrootte, spellen',
 	'INS_ARCADE_UPDATE_GAME_DATA'						=> 'Update spelgegevens',
-	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'Het upgradeproces is voltooid, u kunt de resultaten hieronder zien.',
-	'INS_ARCADE_UPDATE_GAME_DATA_EXPLAIN'				=> 'Tijdens het upgradeproces kan de juiste grootte van spellen worden bepaald: (Totale bestandsgrootte, hoogte en breedte van het spel) Als ze zijn ingesteld op onjuiste gegevens in de database en het installatiebestand, wordt het ook bijgewerkt met de juiste gegevens.<br><span style="color: #ff0000;">Warning:</span> Houd er rekening mee dat tijdens het proces sommige grotere spellen veel geheugen nodig hebben, dus het is mogelijk dat het proces niet kan plaatsvinden. In dit geval wordt aanbevolen om de servergeheugenlimiet in het php.ini bestand te verhogen.',
+	'INS_ARCADE_UPDATE_GAME_DATA_END'					=> 'Het upgrade proces is voltooid, u kunt de resultaten hieronder zien.',
+	'INS_ARCADE_UPDATE_GAME_DATA_EXPLAIN'				=> 'Tijdens het upgrade proces kan de juiste grootte van spellen worden bepaald: (Totale bestandsgrootte, hoogte en breedte van het spel) Als ze zijn ingesteld op onjuiste gegevens in de database en het installatiebestand, wordt het ook bijgewerkt met de juiste gegevens.<br><span style="color: #ff0000;">Warning:</span> Houd er rekening mee dat tijdens het proces sommige grotere spellen veel geheugen nodig hebben, dus het is mogelijk dat het proces niet kan plaatsvinden. In dit geval wordt aanbevolen om de servergeheugenlimiet in het php.ini bestand te verhogen.',
 
 	'JVA_CORE_EXT_NOT_FOUND'							=> 'De extensie kan niet worden ingeschakeld omdat de extensie “JVA - Core” niet kan worden gevonden!',
 ));
