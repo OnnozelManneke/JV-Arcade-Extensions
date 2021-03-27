@@ -1,6 +1,6 @@
 # JV Arcade Extensions
 
-Dutch language files for Arcade 7.4.1
+Dutch language files for Arcade 7.1.4
 
 Dutch language files for JVA Core Extensie 1.0.3
 
