@@ -193,14 +193,14 @@ $lang = array_merge($lang, array(
 
 /**
 *	phpBB Arcade spel installatiebestand
-​
+*
 *	Hieronder staat wat informatie over parameters die moeten worden ingesteld om een ​​spel te kunnen
 *	installeren in de arcade. Je hebt dit bestand nodig om het spel te tonen in
 *	de phpBB Arcade Beheerderspaneel en om te installeren.
-​
+*
 *	De enige items die moeten worden ingesteld, zijn de naam, beschrijving, controller,
 *	breedte, hoogte, type score en opslagtype voor score.
-​
+*
 *	De arcade ondersteunt verschillende soorten spellen voor het opslaan van scores. (PhpBB Arcade, IBPro,
 *	IBProV32, Relax Arcade, Olympus Arcade en spellen die geen scores indienen)
 *	Gebruik de volgende constanten voor het opslaan van scores:
@@ -238,9 +238,9 @@ $lang = array_merge($lang, array(
 *	SCORETYPE_HIGH
 *	SCORETYPE_LOW
 *
-* SCORETYPE_HIGH is voor spellen die zo scoren dat de beste score de
-* hoogste is. SCORETYPE_LOW is voor spellen die zo scoren dat de
-* beste score de laagste is.
+*	SCORETYPE_HIGH is voor spellen die zo scoren dat de beste score de
+*	hoogste is. SCORETYPE_LOW is voor spellen die zo scoren dat de
+*	beste score de laagste is.
 */
 
 // ONTWIKKELAARS LET OP gewijzigd - (\'game_name\', \'game_desc\', \'game_control_desc\')

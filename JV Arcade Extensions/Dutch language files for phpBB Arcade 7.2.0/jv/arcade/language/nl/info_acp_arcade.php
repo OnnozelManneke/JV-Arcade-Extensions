@@ -899,7 +899,7 @@ $lang = array_merge($lang, array(
 	'ARCADE_RETAIN_WEBLINKS'							=> 'Behoud web linken',
 	'ARCADE_RE_SYNC_ALL_GAMES'							=> 'Re-sync alle spellen',
 	'ARCADE_RIGHT_TO_LEFT'								=> 'Rechts naar links',
-	'ARCADE_ROOT_FILE'									=> 'Arcade root file',
+	'ARCADE_ROOT_FILE'									=> 'Arcade root bestand',
 	'ARCADE_ROOT_FILE_EXPLAIN'							=> 'Hier kunt u de toegangsnaam van het arcade root bestand wijzigen.<br>Beschikbare karakters (a-z, 0-9 and _).',
 	'ARCADE_ROOT_FILE_NAME_ERROR'						=> 'De opgegeven root bestandsnaam bevat ongeldige tekens.',
 	'ARCADE_ROOT_FILE_NOT_EXIST_ERROR'					=> 'De opgegeven root bestandsnaam is niet gevonden op de server!',	
@@ -1203,7 +1203,7 @@ $lang = array_merge($lang, array(
 	'HIGH'												=> 'Hoog',
 	'HORIZONTAL'										=> 'Horizontaal',
 
-	'INCORRECT'											=> 'Incorrect',
+	'INCORRECT'											=> 'Niet correct',
 
 	'JVA_GAME_INTRO'									=> 'JVA Game Intro',
 	'JVA_GAME_INTRO_EXPLAIN'							=> 'Voordat het spel begint, wordt een inleidende versie geladen met een spelbeschrijving, besturing en scoreslijst.<br>Lees verder de uitgebreide beschrijving %sHIER%s.',
@@ -1311,7 +1311,7 @@ Bovendien worden het aantal keren gespeeld en de eerste en laatste speeldatum op
 	'LEVEL_2'											=> 'Level 2',
 	'LEVEL_3'											=> 'Level 3',
 	'LEVEL_4'											=> 'Level 4',
-	'LEVEL_5'											=> 'Level 5',	
+	'LEVEL_5'											=> 'Level 5',
 	'LIGHT'												=> 'Licht',
 	'LIST_INDEX'										=> 'Subcategorie in hoofdcategorie legenda weergeven',
 	'LIST_INDEX_EXPLAIN'								=> 'Een koppeling naar deze categorie weergeven onder de categorieën subcategorieën lijst als de hoofdcategorieën “subcategorieën in legenda weergeven” optie is ingeschakeld.',
