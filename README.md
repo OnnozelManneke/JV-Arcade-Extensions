@@ -26,7 +26,7 @@ Dutch language files for Leaders on forum index 1.1.0
 
 Dutch language files for New games on forum index page 1.1.1
 
-Dutch language files for phpBB Holdem Poker 1.0.2
+Dutch language files for phpBB Holdem Poker 3.1.1
 
 Dutch language files for Random games on forum index page 1.1.0
 
