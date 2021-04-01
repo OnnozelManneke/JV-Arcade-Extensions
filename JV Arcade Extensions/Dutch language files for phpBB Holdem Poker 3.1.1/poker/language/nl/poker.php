@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* @package phpBB Holdem Poker
+* @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2019 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
+* @author 2011-2021 KillBill
+* @copyright (c) 2014-2021 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://jv-arcade.com/License.html JVA License v1
 *
 */
@@ -73,6 +73,7 @@ $lang = array_merge($lang, array(
 	'JV_POKER_LIMIT'					=> 'Limiet',
 	'JV_POKER_LOBBY'					=> 'Lobby',
 	'JV_POKER_LOCKED'					=> 'Gesloten',
+	'JV_POKER_LONGEST_PLAYTIME'			=> 'Langste speeltijd',	
 	'JV_POKER_MOST_PLAYED_USERS'		=> 'Meest spelende gebruikers',
 	'JV_POKER_MOVETIME'					=> 'Verplaats tijd',
 	'JV_POKER_MSG_DELETE'				=> 'Verwijder bericht',
@@ -102,6 +103,7 @@ $lang = array_merge($lang, array(
 
 	'JV_POKER_PARTICIPANTS'				=> 'Deelnemers',
 	'JV_POKER_PLACE'					=> '%s. plaats',
+	'JV_POKER_PLAYED'					=> 'Gespeeld',
 	'JV_POKER_PLAYED_NPARTY'			=> array(
 		'1'								=> 'Gespeeld spel: <strong>%s</strong>',
 		'2'								=> 'Gespeelde spellen: <strong>%s</strong>',
@@ -125,7 +127,8 @@ $lang = array_merge($lang, array(
 	'JV_POKER_PRACTICE'					=> 'Oefenen',
 	'JV_POKER_PRACTICE_ROOM'			=> 'Oefen kamer',
 	'JV_POKER_PRACTICE_ROOMS'			=> 'Oefen kamers',
-	'JV_POKER_PRIZE'					=> 'Prijs',	
+	'JV_POKER_PRIZE'					=> 'Prijs',
+	'JV_POKER_RANK'						=> 'Rank',	
 	'JV_POKER_RETURN_EXCHENGE_PAGE'		=> '%sTerug naar de chips uitwisseling pagina.%s',
 	'JV_POKER_RETURN_INDEX_PAGE'		=> '%sTerug naar de poker hoofdpagina.%s',
 	'JV_POKER_ROOM'						=> 'Poker kamer',
@@ -145,6 +148,7 @@ $lang = array_merge($lang, array(
 	'JV_POKER_ROOM_WAIT_USERS'			=> 'De <strong>%s</strong> kamer heeft wachtende spelers: %s',
 	'JV_POKER_RULES'					=> 'Poker regels',
 	'JV_POKER_SELECT_EXCHANGE_TYPE'		=> 'Selecteer wat u wilt inwisselen',
+	'JV_POKER_SHORTEST_PLAYTIME'		=> 'Kortste speeltijd',	
 	'JV_POKER_SHOUT_ARCHIVE'			=> 'Shoutbox archief',
 	'JV_POKER_SHOUT_ARCHIVE_NO_MSG'		=> 'Er zijn momenteel geen berichten om weer te geven.',
 	'JV_POKER_SHOUT_ROOM_ARCHIVE'		=> 'Poker %s kamer shoutbox archief',
@@ -181,17 +185,27 @@ $lang = array_merge($lang, array(
 		'2'								=> 'speelde %s spellen.',
 	),
 
+	'JV_POKER_STATS_PLAYS_TOURS'		=> array(
+		'1'								=> 'speelde %s toernooi.',
+		'2'								=> 'speelde %s toernooien.',
+	),
+
 	'JV_POKER_STATS_RAISES'				=> array(
 		'1'								=> 'Totaal “raise” aantal: <strong>%s</strong>',
 		'2'								=> 'Totaal “raise” aantal: <strong>%s</strong>',
 	),
 
-	'JV_POKER_STATS_VIEWING'			=> 'Bekijkt de poker statistieken',
-	'JV_POKER_STATS_WINS_RATE'			=> 'win percentage: %s%%',
-	'JV_POKER_TOUR_STATS_VIEWING'		=> 'Statistieken pokertoernooien bekijken',	
+	'JV_POKER_STATS_VIEWING'			=> 'Bekijkt pokerstatistieken',
+	'JV_POKER_STATS_WINS_RATE'			=> 'winstpercentage: %s%%',
+	'JV_POKER_STATS_WON_TOURS'			=> array(
+		'1'								=> 'won %s toernooi',
+		'2'								=> 'won %s toernooien',
+	),
+
+	'JV_POKER_TOUR_STATS_VIEWING'		=> 'Bekijkt statistieken van pokertoernooien',
 	'JV_POKER_TIME_DAY'					=> 'dag',
 	'JV_POKER_TIME_DAYS'				=> 'dagen',
-	'JV_POKER_TIME_HOUR'				=> 'uur',
+	'JV_POKER_TIME_HOUR'				=> 'hour',
 	'JV_POKER_TIME_HOURS'				=> 'uren',
 	'JV_POKER_TIME_MINUTE'				=> 'minuut',
 	'JV_POKER_TIME_MINUTES'				=> 'minuten',
@@ -213,6 +227,7 @@ $lang = array_merge($lang, array(
 	'JV_POKER_TOURNAMENT'				=> 'Toernooi',
 	'JV_POKER_TOURNAMENT_ROOM'			=> 'Toernooi kamer',
 	'JV_POKER_TOURNAMENT_ROOMS'			=> 'Toernooi kamers',
+	'JV_POKER_TOUR_LEADERS'				=> 'Poker toernooi leiders',	
 	'JV_POKER_UNKNOWN'					=> 'Onbekend',
 	'JV_POKER_UNLOCKED'					=> 'Ontgrendeld',
 	'JV_POKER_USER_INFO'				=> 'Gebruikers informatie',

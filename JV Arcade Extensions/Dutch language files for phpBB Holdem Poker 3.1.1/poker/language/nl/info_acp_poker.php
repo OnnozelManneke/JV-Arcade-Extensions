@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* @package phpBB Holdem Poker
+* @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2019 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
+* @author 2011-2021 KillBill
+* @copyright (c) 2014-2021 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://jv-arcade.com/License.html JVA License v1
 *
 */
@@ -46,11 +46,15 @@ $lang = array_merge($lang, array(
 	'ACP_JV_POKER_ADD_RADIO_EXPLAIN'				=> 'Hier kunt u een nieuw radiostation toevoegen.',
 	'ACP_JV_POKER_ADD_ROOM'							=> 'Kamer toevoegen',
 	'ACP_JV_POKER_ADD_ROOM_EXPLAIN'					=> 'U kunt uw nieuwe kamer zo ver als u kunt configureren.',
+	'ACP_JV_POKER_ALL_VERSION_CHECK'				=> 'Controleer alle versies',
 	'ACP_JV_POKER_APPROVAL_PERSONAL_DATA_CONFIRM'	=> 'Ik ga ermee akkoord om persoonlijke gegevens te verzenden en op te slaan.',
 	'ACP_JV_POKER_AUTO_LOAD_ENABLE'					=> 'Kamer met automatisch laden',
 	'ACP_JV_POKER_AUTO_LOAD_ENABLE_EXPLAIN'			=> 'Hiermee kunnen gebruikers zien of u per ongeluk het venster sluit en vervolgens wordt het poker spel automatisch geladen in de kamer waar hij zat.',
 	'ACP_JV_POKER_AUTO_START'						=> 'Automatische start',
 	'ACP_JV_POKER_AUTO_START_EXPLAIN'				=> 'Als er ten minste twee gebruikers in de kamer gaan zitten start het spel automatisch. Wanneer deze optie is uitgeschakeld moeten spelers het spel handmatig starten.<br><em>Merk op dat deze optie niet geldig is voor toernooikamers.</em>',
+	'ACP_JV_POKER_AVATAR_DISPLAY'					=> 'Gebruikers Avatars weergeven',
+	'ACP_JV_POKER_AVATAR_SIZE'						=> 'Grootte van Gebruikers Avatars',
+	'ACP_JV_POKER_BG_IMG'							=> 'Display a background image',	
 	'ACP_JV_POKER_CREATED_ROOMS'					=> 'Aangemaakte kamers',
 	'ACP_JV_POKER_CREATE_NEW_ROOM'					=> 'Maak een nieuwe kamer',
 	'ACP_JV_POKER_CREATE_RADIO'						=> 'Voeg radiostation toe',
@@ -66,14 +70,16 @@ $lang = array_merge($lang, array(
 	'ACP_JV_POKER_EDIT_ROOM'						=> 'Bewerk kamer',
 	'ACP_JV_POKER_EDIT_ROOM_BLOCKED'				=> '<strong>Kamer bewerken of verwijderen geblokkeerd!</strong><br>De <strong>“%s kamer”</strong> wordt momenteel gespeeld, of gebruikers zijn ten onrechte opgestaan van de tafel, dus de partij is nog niet geëvalueerd.<br><br>Het bewerken of verwijderen van de kamer is alleen mogelijk als er geen spel aan de gang is.<br><br><em>Tijdens het spel kunnen alleen leer en oefenruimten bewerkt of verwijderd worden.</em>',
 	'ACP_JV_POKER_EDIT_ROOM_EXPLAIN'				=> 'U kunt de configuratie van de kamer instellen naar eigen keuze.',
-	'ACP_JV_POKER_END_USE_PERIOD'					=> 'Einde van gebruiksperiode',
-	'ACP_JV_POKER_EXT_NAME_JV_PS'					=> 'JV Punten Systeem',
-	'ACP_JV_POKER_EXT_NAME_ULTIMATE_PS'				=> 'Ultimate Punten Extensie',
-	'ACP_JV_POKER_INSTALL_EXT_DETECT_DISABLED'		=> 'De phpBB Holdem Poker heeft gedetecteerd dat je de <strong>“%s”</strong> hebt geïnstalleerd en uitgeschakeld.',
-	'ACP_JV_POKER_INSTALL_EXT_DETECT_ENABLED'		=> 'De phpBB Holdem Poker heeft gedetecteerd dat je de <strong>“%s”</strong> hebt geïnstalleerd en ingeschakeld.',
-	'ACP_JV_POKER_INSTALL_TIME'						=> 'Poker software installatie',
+	'ACP_JV_POKER_ENABLE_ERROR'						=> 'De extensie kan niet worden geactiveerd omdat de versie van <strong>“phpBB”</strong> lager is dan versie <strong>“%s”</strong>!',	
+	'ACP_JV_POKER_END_USE_PERIOD'					=> 'Einde gebruiksperiode',
+	'ACP_JV_POKER_EXT_DISABLED'						=> 'Deze extensies zijn uitgeschakeld, omdat ze niet compatibel zijn met de momenteel gebruikte versie van “phpBB Holdem Póker”.',
+	'ACP_JV_POKER_EXT_NAME_SETTINGS'				=> '%s extensie instellingen',
+	'ACP_JV_POKER_EXT_NO_INSTALL'					=> 'Er zijn momenteel geen extensies geïnstalleerd.',
+	'ACP_JV_POKER_EXT_VERSION'						=> 'Extensie versie',
+	'ACP_JV_POKER_EXT_VERSION_CHECK'				=> 'Extensie versie controleren',
+	'ACP_JV_POKER_INSTALL_TIME'						=> 'Poker software installeren',
 	'ACP_JV_POKER_IPCHECK_ENABLE'					=> 'IP controle',
-	'ACP_JV_POKER_IPCHECK_ENABLE_EXPLAIN'			=> 'Slechts één gebruiker kan in een kamer met één IP adres zitten.',
+	'ACP_JV_POKER_IPCHECK_ENABLE_EXPLAIN'			=> 'Een IP adres mag slechts door één gebruiker in een kamer worden gebruikt.',
 	'ACP_JV_POKER_JACKPOT_ENABLE'					=> 'Gebruik jackpot',
 	'ACP_JV_POKER_JACKPOT_ENABLE_EXPLAIN'			=> 'De jackpot zal toenemen afhankelijk van het ingestelde percentage en de waarde van de gebruiker chips.<br><em>Merk op dat deze optie alleen van toepassing is op standaard kamers.</em>',
 	'ACP_JV_POKER_JACKPOT_EXPLAIN'					=> 'Het bedrag van de huidige jackpot.',
@@ -101,6 +107,7 @@ $lang = array_merge($lang, array(
 	'ACP_JV_POKER_PLAYED_PARTY'						=> 'Gespeelde spellen',
 	'ACP_JV_POKER_PLAYED_PARTY_DAY'					=> 'Gespeelde spellen per dag',
 	'ACP_JV_POKER_PLAYED_TOURNAMENTS'				=> 'Gespeelde toernooien',
+	'ACP_JV_POKER_PLAYED_TOURNAMENTS_DAY'			=> 'Speeltoernooien dag',	
 	'ACP_JV_POKER_PRACTICE_INCOME'					=> 'Schakel inkomen in voor oefenkamers',
 	'ACP_JV_POKER_PRACTICE_INCOME_EXPLAIN'			=> 'Hier kun je de oefenkamer spellen inschakelen om je inkomensgegevens te registreren.<br><em>Merk op dat u deze optie moet inschakelen als u geen puntensysteem gebruikt. De kampioenen worden gerangschikt op inkomen. In het andere geval, wordt de win verhouding in aanmerking genomen.</em>',
 	'ACP_JV_POKER_PRACTICE_IPCHECK_ENABLE'			=> 'IP controle in de oefenkamer',
@@ -154,6 +161,8 @@ $lang = array_merge($lang, array(
 	'ACP_JV_POKER_RULE_DISPLAY'						=> 'Toon pokerregels',
 	'ACP_JV_POKER_RULE_UPDATED'						=> 'De pokerregels zijn succesvol bijgewerkt.',
 	'ACP_JV_POKER_SETTINGS'							=> 'phpBB Holdem Poker - instellingen',
+	'ACP_JV_POKER_SETTINGS_EXT'						=> 'Extensie instellingen',
+	'ACP_JV_POKER_SETTINGS_EXT_EXPLAIN'				=> 'Hier kun je alle geïnstalleerde poker extensies zien. Hier heeft u de mogelijkheid om extensies te configureren.',
 	'ACP_JV_POKER_SETTINGS_GAME'					=> 'Spel instellingen',
 	'ACP_JV_POKER_SETTINGS_GENERAL'					=> 'Algemene instellingen',
 	'ACP_JV_POKER_SETTINGS_GENERAL_EXPLAIN'			=> 'Configureer verschillende instellingen voor phpBB Holdem Poker',
@@ -175,11 +184,10 @@ $lang = array_merge($lang, array(
 	'ACP_JV_POKER_SMILIES_LIMIT_EXPLAIN'			=> 'Bepaalt hoeveel smileys worden geladen.',
 	'ACP_JV_POKER_SMILIE_ENABLE'					=> 'Smileys inschakelen',
 	'ACP_JV_POKER_SMILIE_ENABLE_EXPLAIN'			=> 'Hiermee kunnen gebruikers smileys in de shoutbox gebruiken.',
-	'ACP_JV_POKER_STATS'							=> 'Poker Statistieken',
-	'ACP_JV_POKER_STATS_ENABLE'						=> 'Schakel statistieken in',
-	'ACP_JV_POKER_STATS_ENABLE_EXPLAIN'				=> 'Staat gebruikers toe om de spelersstatistieken te bereiken.',
+	'ACP_JV_POKER_STATS_ENABLE'						=> 'Statistieken inschakelen',
+	'ACP_JV_POKER_STATS_ENABLE_EXPLAIN'				=> 'Hiermee kunnen gebruikers de spelersstatistieken bekijken.',
 	'ACP_JV_POKER_STATS_LIMIT'						=> 'Aantal statistische gegevens',
-	'ACP_JV_POKER_STATS_PER_PAGE'					=> 'Statistieken items per pagina',
+	'ACP_JV_POKER_STATS_PER_PAGE'					=> 'Statistiekenitems per pagina',
 	'ACP_JV_POKER_STYLE'							=> 'Stijlen',
 	'ACP_JV_POKER_STYLE_EXPLAIN'					=> 'Hier kun je de geïnstalleerde pokerstijlen en hun details bekijken. U kunt ook stijlen verwijderen.',
 	'ACP_JV_POKER_STYLE_INSTALL'					=> 'Installeer stijlen',
@@ -230,7 +238,11 @@ $lang = array_merge($lang, array(
 	'ACP_JV_POKER_WEBSITE_ERROR_DATA'				=> 'Er zijn geen geldige gegevens ontvangen. Probeer het later opnieuw.',
 	'ACP_JV_POKER_WEBSITE_NO_CONNECTION'			=> 'De “%s” website is momenteel niet beschikbaar!',
 
+	'JVA_CORE_EXT_NOT_FOUND'						=> 'De extensie kan niet worden ingeschakeld omdat de extensie “JVA - Core” niet kan worden gevonden!',
+	'JVA_CORE_EXT_NOT_FOUND_NA'						=> 'De extensie “JVA - Core” is niet gevonden, dus dit gebied is niet beschikbaar!',
+
 	'LOG_JV_POKER_DELETE_STYLE'						=> '<strong>phpBB Holdem Poker - Verwijder stijl</strong><br>» Stijl naam %s',
+	'LOG_JV_POKER_EXT_SETTINGS'						=> '<strong>phpBB Holdem Póker - Gewijzigde extensie instellingen</strong>',	
 	'LOG_JV_POKER_INSTALL_STYLE'					=> '<strong>phpBB Holdem Poker - Installeer stijl</strong><br>» Stijl naam: %s',
 	'LOG_JV_POKER_RADIO_ADD'						=> '<strong>phpBB Holdem Poker - Maak een radiostation</strong><br>» Radio: %s',
 	'LOG_JV_POKER_RADIO_DELETE'						=> '<strong>phpBB Holdem Poker - Verwijder radiostation</strong><br>» Radio: %s',

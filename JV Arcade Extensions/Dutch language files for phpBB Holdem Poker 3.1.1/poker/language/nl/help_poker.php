@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* @package phpBB Holdem Poker
+* @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2019 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
+* @author 2011-2021 KillBill
+* @copyright (c) 2014-2021 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://jv-arcade.com/License.html JVA License v1
 *
 */
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 		<br><br><strong>Flop (tweede inzetronde):</strong><br>
 		De deler deelt drie kaarten, de “Flop”, die met de afbeelding naar boven in het midden van de tafel liggen, zodat alle spelers ze kunnen zien. Dan begint de tweede inzetronde van het spel.
 
-		<br><br><strong>In tegenstelling tot de Pre-Flop gokronde, kunnen alle gokrondes na de flop altijd beginnen met de eerste actieve speler links van de deler knop en drie weddenschappen doen:</strong><br>
+		<br><br><strong>In tegenstelling tot de Pre-Flop gok ronde, kunnen alle gok rondes na de flop altijd beginnen met de eerste actieve speler links van de deler knop en drie weddenschappen doen:</strong><br>
 		<ul>
 			<li>Check: geef actie door aan de volgende speler, call niet en fold je kaarten niet.</li>
 			<li>Bet: betaalt de openingsinzet volgens de limietregels.</li>
@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 		<li>3. De beheerder heeft phpBB Holdem Poker uitgeschakeld.</li>
 		<li>4. De beheerder heeft het puntensysteem dat is geïntegreerd met phpBB Holdem Poker uitgeschakeld.</li>
 		<li>5. De beheerder heeft deze kamer uitgeschakeld.</li>
-		<li>6. De beheerder heeft het kamertype gewijzigd.</li>
+		<li>6. De beheerder heeft het kamer type gewijzigd.</li>
 		<li>7. Gebruikers hebben de kamer niet goed verlaten. Ze hebben bijvoorbeeld gewoon het browservenster gesloten tijdens het spel.</li>
 		<li>8. De internetverbinding van de gebruikers naar de site werd onderbroken.</li>
 	</ul>
@@ -288,7 +288,7 @@ $lang = array_merge($lang, array(
 
 	'JV_POKER_HELP_JACKPOT_ANSWER'		=> 'Het gebruik van de jackpot kan worden ingeschakeld door de beheerder en de beheerder bepaald ook het percentage. Het jackpotfonds kan zich ophopen in normale kamers op basis van het percentage dat gebruikers uit hun eigen stapelvoorraad voor elke stoel verzamelen. Er zijn twee opties om de jackpot te winnen.:
 	<ul>
-		<li>De beheerder schakelt het kamertype van Normaal naar Toernooi. Op deze manier kan de winnaar van het toernooi de opgebouwde prijs samen met zijn winst ontvangen.</li>
+		<li>De beheerder schakelt het kamer type van Normaal naar Toernooi. Op deze manier kan de winnaar van het toernooi de opgebouwde prijs samen met zijn winst ontvangen.</li>
 		<li>De beheerder maakt een nieuwe toernooikamer en draagt de prijs over van de normale kamer naar de toernooikamer</li>
 	</ul>',
 	'JV_POKER_HELP_JACKPOT_QUESTION'	=> 'Wat is de hoofdprijs en hoe verkrijg ik deze?',

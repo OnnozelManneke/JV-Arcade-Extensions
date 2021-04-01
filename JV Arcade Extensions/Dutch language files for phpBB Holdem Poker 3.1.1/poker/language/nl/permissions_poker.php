@@ -1,10 +1,10 @@
 <?php
 /**
 *
-* @package phpBB Holdem Poker
+* @package phpBB Holdem Póker
 * @version $Id$
-* @author 2011-2019 KillBill - killbill@jatek-vilag.com
-* @copyright (c) 2014-2019 https://jv-arcade.com/ - support@jv-arcade.com
+* @author 2011-2021 KillBill
+* @copyright (c) 2014-2021 https://jv-arcade.com/ - https://jv-arcade.com/contact
 * @license https://jv-arcade.com/License.html JVA License v1
 *
 */
