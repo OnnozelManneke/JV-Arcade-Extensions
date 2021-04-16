@@ -1,0 +1,11 @@
+{SUBJECT}Eindresultaat Arcade uitdaging!
+
+[game_image_link]
+[game_stats_link]
+[game_popup_link]
+
+Gelijkspel in het toernooi van [game_link].
+[opponent_user_link] score: [user_score] punten, eigen score: [user_score] punten. 
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
