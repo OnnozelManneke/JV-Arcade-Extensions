@@ -7,4 +7,4 @@
 Je bent je superscore kwijtgeraakt in [game_link].
 [new_user_link] ontving een score van [b][new_score][/b] die je oude score van [b][old_score][/b] versloeg.
 
-U kunt uw arcade-statistieken bekijken door op [old_user_link] te klikken.
+U kunt uw arcade statistieken bekijken door op [old_user_link] te klikken.
