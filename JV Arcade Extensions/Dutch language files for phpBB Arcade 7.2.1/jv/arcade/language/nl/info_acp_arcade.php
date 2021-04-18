@@ -364,8 +364,8 @@ $lang = array_merge($lang, array(
 	'ARCADE_CHALLENGE_FINAL_WINNER_PM'					=> 'Wedstrijd eind resultaat/winnaar',
 	'ARCADE_CHALLENGE_FINAL_WINNER_PM_EXPLAIN'			=> 'Indien een gebruiker wordt uitgedaagd voor een wedstrijd zal deze gebruiker ook een persoonlijk bericht ontvangen.
 	<br><strong>&bull; [game_id]<br>&bull; [game_name]<br>&bull; [game_width]<br>&bull; [game_height]<br>&bull; [game_image]<br>&bull; [game_link]<br>&bull; [game_image_link]<br>&bull; [game_popup_link]<br>&bull; [game_stats_link]<br>&bull; [winner_user_id]<br>&bull; [winner_username]<br>&bull; [winner_user_link]<br>&bull; [winner_score]<br>&bull; [loser_user_id]<br>&bull; [loser_username]<br>&bull; [loser_user_link]<br>&bull; [loser_score]<br>&bull; [view_challenge]</strong>',
-	'ARCADE_CHALLENGE_PM'								=> 'Wedstrijd persoonlijke bericht',
-	'ARCADE_CHALLENGE_PMS'								=> 'Wedstrijd persoonlijke berichtenChallenge',
+	'ARCADE_CHALLENGE_PM'								=> 'Wedstrijd Privébericht',
+	'ARCADE_CHALLENGE_PMS'								=> 'Wedstrijd Privéberichten',
 	'ARCADE_CHALLENGE_PM_EXPLAIN'						=> 'Indien een gebruiker wordt uitgedaagd voor een wedstrijd zal deze gebruiker ook een persoonlijk bericht ontvangen.
 	<br><br>De volgende naamhouders kunnen worden gebruikt in de berichten voor het uitdagen voor een wedstrijd:
 	<br><strong>&bull; [game_id]<br>&bull; [game_name]<br>&bull; [game_width]<br>&bull; [game_height]<br>&bull; [game_image]<br>&bull; [game_link]<br>&bull; [game_image_link]<br>&bull; [game_popup_link]<br>&bull; [challenger_user_id]<br>&bull; [challenger_username]<br>&bull; [challenger_user_link]<br>&bull; [game_stats_link]<br>&bull; [view_challenge]</strong>',
