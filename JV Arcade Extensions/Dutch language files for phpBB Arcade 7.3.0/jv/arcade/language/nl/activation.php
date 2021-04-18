@@ -172,7 +172,7 @@ Bovendien zal de gespecificeerde activeringssleutel ons vertellen dat de betrokk
 			<li>Adverteren.</li>
 			<li>Terugkerende update informatie.</li>
 			<li>Terugkerende globale informatie.</li>
-			<li>De “%2$s” geeft aan dat het geen wijzigingen in de database kan en wil aanbrengen die tijdens de verbinding op andere websites zijn geïmplementeerd! Het is erg belangrijk om tijdens de verbinding 100% veiligheid te hebben tussen de twee servers.<br>Daarom kan de software alleen geactiveerd worden door de oprichter van de website.</li>
+			<li>De “%2$s” geeft aan dat het geen wijzigingen in de database kan en wil aanbrengen die tijdens de verbinding op andere websites zijn geïmplementeerd! Het is erg belangrijk om tijdens de verbinding 100 procent veiligheid te hebben tussen de twee servers.<br>Daarom kan de software alleen geactiveerd worden door de oprichter van de website.</li>
 		</ol>
 	</li>
 	<li>Op localhost wordt het gebruik van een “JVA Game Intro” niet ondersteund, maar de software kan wel draaien. Op de localhost is er geen dataverbinding, maar de wachttijd staat standaard ingesteld op 5 seconden.</li>
