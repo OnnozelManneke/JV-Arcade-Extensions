@@ -1,0 +1,15 @@
+{SUBJECT}[Toernooi bericht] - [tour_name]
+
+[b]Er is een nieuw toernooi gemaakt.[/b]
+
+Spellen in toernooi: [tour_games_link]
+Betrokken groepen voor dit toernooi: [tour_groups_link]
+
+Aantal keer "opnieuw proberen" toegestaan voor elk spel: [b][tour_plays_max][/b]
+{ARCADE_POINT_SYSTEM_MSG}
+Starttijd toernooi: [b][tour_starttime][/b]
+Eindtijd toernooi: [b][tour_endtime][/b]
+
+Als je meer informatie wilt, kun je het toernooi bekijken: [tour_link].
+
+[b]Veel geluk![/b]

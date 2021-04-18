@@ -1,0 +1,11 @@
+{SUBJECT}[Toernooi bericht] - [tour_name]
+
+[b]Het toernooi is afgelopen.[/b]
+
+Spellen en winnaars in toernooi: [tour_games_link]
+
+[b]Eerste plaats geëindigd:[/b] [1_username_link] {1_ARCADE_POINT_SYSTEM_MSG}
+[b]Tweede plaats eindigde:[/b] [2_username_link] {1_ARCADE_POINT_SYSTEM_MSG}
+[b]Derde plaats eindigde:[/b] [3_username_link] {1_ARCADE_POINT_SYSTEM_MSG}
+
+Als je meer informatie wilt, kun je het toernooi bekijken: [tour_end_link].

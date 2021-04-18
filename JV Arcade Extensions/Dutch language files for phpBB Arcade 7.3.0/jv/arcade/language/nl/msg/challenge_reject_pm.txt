@@ -1,0 +1,6 @@
+{SUBJECT}Arcade uitdaging afgewezen!
+
+Gebruiker [opponent_user_link] heeft de uitdaging afgewezen in volgende spel(len): [games_name].
+{ARCADE_POINT_SYSTEM_MSG}
+
+[view_challenge]
