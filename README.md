@@ -1,6 +1,6 @@
 # JV Arcade Extensions
 
-DDutch language files for phpBB Arcade 7.2.0
+Dutch language files for phpBB Arcade 7.2.0
 
 Dutch language files for phpBB Arcade 7.2.1
 
