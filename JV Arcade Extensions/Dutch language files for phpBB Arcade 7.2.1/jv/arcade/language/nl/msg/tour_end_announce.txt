@@ -1,4 +1,4 @@
-{SUBJECT}[Tournament message] - [tour_name]
+{SUBJECT}[Toernooi bericht] - [tour_name]
 
 [b]Het toernooi is afgelopen.[/b]
 
